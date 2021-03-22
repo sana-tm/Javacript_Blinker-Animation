@@ -1,0 +1,21 @@
+body {
+	font-family: Georgia;
+	text-align:centre;
+	margin: 50px;
+}
+
+p{
+	color: blue;
+	font-weight: bolder;
+}
+
+.blink {
+      animation: blinker 0.9s linear infinite;
+      color: red;      
+      font-weight: bold;  
+      }
+      @keyframes blinker {  
+      50% { opacity: 0; }
+      }
+
+	  
